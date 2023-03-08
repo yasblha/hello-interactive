@@ -1,0 +1,25 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <form>
+      <label for="name">Enter your name:</label>
+      <input type="text" id="name" name="name" required>
+      <button type="submit">Say Hello</button>
+    </form>
+    <!--nouvelle tâche-->
+    <form action="/" method="POST">
+      <input type="text" name="name" placeholder="Nom de la tâche">
+      <input type="submit" value="Ajouter">
+    </form>
+    
+    <p id="greeting"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
